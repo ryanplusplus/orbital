@@ -203,4 +203,8 @@ function love.keypressed(key, isrepeat)
   if key == "g" and not isrepeat then
     generateBodies()
   end
+
+  if key == "r" and not isrepeat then
+    Bodies = {}
+  end
 end

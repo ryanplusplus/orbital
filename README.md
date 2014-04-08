@@ -4,6 +4,7 @@ Orbital
 
 Controls
 --------
++ r key - Reset (remove all bodies)
 + g key - Generate 100 randomly located small bodies
 + left click - Create a body with 0 initial velocity
 + left click and drag - Create a body with a non-0 initial velocity
