@@ -182,7 +182,7 @@ function love.mousereleased(x, y, button)
     local x, y = love.mouse.getPosition()
     local radius = dist(Press.x, Press.y, x, y) * RadiusFactor
 
-    if radius >= 1 then
+    if radius > 0 then
       CreationMass = radiusToMass(radius)
     end
   end
